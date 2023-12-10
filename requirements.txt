@@ -18,4 +18,8 @@ seaborn
 soundfile
 transformers>=4.29.0
 transformers_stream_generator
-gradio
+gradio==3.47.1
+appdirs
+jupyter_client
+#torch
+#torchaudio
