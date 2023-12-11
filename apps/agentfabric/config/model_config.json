@@ -75,6 +75,7 @@
             "top_p": 0.8,
             "max_length": 2000
         }
+    },    
     "chatglm-6b": {
         "type": "modelscope",
         "model_id": "ZhipuAI/chatglm3-6b",
