@@ -37,6 +37,16 @@
             "max_length": 2000
         }
     },
+    "qwen-1_8b": {
+        "type": "modelscope",
+        "model_id": "qwen/Qwen-1_8B-Chat",
+        "model_revision": "v1.0.8",
+        "generate_cfg": {
+            "use_raw_prompt": true,
+            "top_p": 0.8,
+            "max_length": 2000
+        }
+    },
     "qwen-7b-api": {
         "type": "dashscope",
         "model": "qwen-7b-chat",
