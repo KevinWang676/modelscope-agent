@@ -1,4 +1,4 @@
-### 如果需要使用 ChatGLM3-6B，可以修改[此处代码](https://github.com/KevinWang676/modelscope-agent/blob/72b18b9d58488c6363e7b1491e07967113f7c828/apps/agentfabric/builder_core.py#L56) [LLMFactory参考代码](https://github.com/KevinWang676/modelscope-agent/blob/599de7b4c620ae3db38961efccf4dbdf3389c3b1/modelscope_agent/llm/llm_factory.py#L12)
+### 如果需要使用 ChatGLM3-6B，可以修改[此处代码](https://github.com/KevinWang676/modelscope-agent/blob/72b18b9d58488c6363e7b1491e07967113f7c828/apps/agentfabric/builder_core.py#L56) llm_factory[参考代码](https://github.com/KevinWang676/modelscope-agent/blob/599de7b4c620ae3db38961efccf4dbdf3389c3b1/modelscope_agent/llm/llm_factory.py#L12)
 
 <h1> ModelScope-Agent: Building Your Customizable Agent System with Open-source Large Language Models</h1>
 
