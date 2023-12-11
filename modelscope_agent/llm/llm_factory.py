@@ -9,7 +9,7 @@ def get_llm_cls(llm_type, model_name):
         from .openai import OpenAi
         return OpenAi
     elif llm_type == 'modelscope':
-        if model_name == 'chatglm3-6b':
+        if model_name == 'chatglm3-6b': # 也可以使用 ChatGLM3-6B
             from .modelscope_llm import ModelScopeChatGLM
             return ModelScopeChatGLM
         from .modelscope_llm import ModelScopeLLM
