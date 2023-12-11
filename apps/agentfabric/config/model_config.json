@@ -40,7 +40,7 @@
     "qwen-1_8b": {
         "type": "modelscope",
         "model_id": "qwen/Qwen-1_8B-Chat",
-        "model_revision": "v1.0.8",
+        "model_revision": "v1.0.0",
         "generate_cfg": {
             "use_raw_prompt": true,
             "top_p": 0.8,
