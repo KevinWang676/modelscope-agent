@@ -53,7 +53,7 @@ def init_builder_chatbot_agent(uuid_str):
 
     # build llm
     print(f'using builder model {builder_cfg.model}')
-    llm = LLMFactory.build_llm(builder_cfg.model, model_cfg)
+    llm = LLMFactory.build_llm(builder_cfg.model, model_cfg) # 开以在此处修改代码，使用ChatGLM3-6B
     llm.set_agent_type(AgentType.Messages)
 
     # build prompt
