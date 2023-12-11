@@ -75,6 +75,15 @@
             "top_p": 0.8,
             "max_length": 2000
         }
+    "chatglm-6b": {
+        "type": "modelscope",
+        "model_id": "chatglm3-6b",
+        "model_revision": "v1.0.2",
+        "generate_cfg": {
+            "use_raw_prompt": true,
+            "top_p": 0.8,
+            "max_length": 2000
+        }
     },
     "qwen-14b-api": {
         "type": "dashscope",
