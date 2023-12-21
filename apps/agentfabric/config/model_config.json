@@ -34,7 +34,8 @@
         "generate_cfg": {
             "use_raw_prompt": true,
             "top_p": 0.8,
-            "max_length": 2000
+            "max_length": 2000,
+            "stop": "<|im_end|>"
         }
     },
     "qwen-1_8b": {
