@@ -21,7 +21,8 @@ def init_user_chatbot_agent(uuid_str=''):
         uuid_str)
     # set top_p and stop_words for role play
     model_cfg[builder_cfg.model]['generate_cfg']['top_p'] = 0.5
-    model_cfg[builder_cfg.model]['generate_cfg']['stop'] = 'Observation'
+#    model_cfg[builder_cfg.model]['generate_cfg']['stop'] = 'Observation'
+    model_cfg[builder_cfg.model]['generate_cfg']['stop'] = '<|im_end|>'
 
     # build model
     print(f'using model {builder_cfg.model}')
